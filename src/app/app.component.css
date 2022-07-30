@@ -1,0 +1,14 @@
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.post{
+    border: 1px solid lightblue;
+    margin: 5px 5px;
+    display: block;
+    max-width: 350px;
+    height: 200px;
+    float: left;
+    overflow-y: scroll;
+}
