@@ -19,6 +19,9 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.apiService.getPost().pipe(first()).subscribe((posts: Post[])=>{
       this.posts = posts
+      if(this.posts.length > 0){
+        lat test = new Post(this.posts[0])
+      }
     })
   }
 }
